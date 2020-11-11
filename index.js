@@ -1,7 +1,7 @@
 document.querySelector('button').addEventListener('click', fetchSoftUniPartners);
 
 function fetchSoftUniPartners() {
-    const URL = "https:google.bg";
+    const URL = "https://google.bg";
 
     fetch(URL)
         .then((r) => r.text())
